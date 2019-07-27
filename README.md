@@ -60,3 +60,26 @@ Decrypt the file
 gpg -d file.gpg
 gpg -d file.gpg > file # save output to the file
 ```
+---
+
+### Change Passphrase
+
+Get the list of public keys you have
+```bash
+gpg --list-keys
+```
+
+Edit your key
+```bash
+gpg --edit-key 8C64425F9A188D919F4A37E39216C63F5680B5A8
+```
+
+Edit password and save the key
+```
+passwd
+```
+```
+save
+```
+> use the commands above inside `gpg` shell
+---
