@@ -45,7 +45,7 @@ Create a secret file
 echo "This is a secret" > file
 ```
 
-Encrypt the file, and mention the recipient's email.
+Encrypt the file using recipient's public key, attached with email.
 ```bash
 gpg -r shubhamtatvamasi@gmail.com -e file
 ```
