@@ -75,11 +75,8 @@ gpg --edit-key 8C64425F9A188D919F4A37E39216C63F5680B5A8
 ```
 
 Edit password and save the key
-```
-passwd
-```
-```
-save
+```bash
+passwd # change the passphrase
+save # save and quit
 ```
 > use the commands above inside `gpg` shell
----
