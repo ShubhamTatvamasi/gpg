@@ -80,3 +80,32 @@ passwd # change the passphrase
 save # save and quit
 ```
 > use the commands above inside `gpg` shell
+---
+
+### Github GPG key
+
+First add your public GPG key on your github.
+
+Update your setting to sign all your commits.
+```bash
+git config --global commit.gpgsign true
+```
+
+Download GPG Suite for macOS
+
+https://gpgtools.org
+
+Download the Public key which Github uses to sign all the commits on their website.
+```bash
+wget https://github.com/web-flow.gpg
+```
+
+Import the key so you can see verified signatures by Github.
+```bash
+gpg --import web-flow.gpg
+```
+
+See all your signed commits.
+```bash
+git log --show-signature
+```
