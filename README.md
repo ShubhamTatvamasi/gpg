@@ -113,7 +113,12 @@ git log --show-signature
 
 ### Encryption using Symmetric Key
 
-Encrypt file using a strong password
+Generate a strong password
+```bash
+gpg --gen-random --armor 1 100
+```
+
+Encrypt file using password
 ```bash
 gpg -c file.txt
 ```
