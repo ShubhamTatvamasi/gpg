@@ -122,3 +122,8 @@ Encrypt file using password
 ```bash
 gpg -c file.txt
 ```
+
+Decrypt the file
+```
+gpg -o file.txt file.txt.gpg
+```
