@@ -109,3 +109,11 @@ See all your signed commits.
 ```bash
 git log --show-signature
 ```
+---
+
+### Encryption using Symmetric Key
+
+Encrypt file using a strong password
+```bash
+gpg -c file.txt
+```
