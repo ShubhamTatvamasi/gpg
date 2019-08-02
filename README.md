@@ -1,4 +1,4 @@
-# gpg
+# GNU Privacy Guard
 
 ### Setup your GPG key pair
 
