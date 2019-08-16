@@ -124,6 +124,11 @@ gpg -c file.txt
 ```
 
 Decrypt the file
-```
+```bash
 gpg -o file.txt file.txt.gpg
+```
+
+Decrypt file via password in cli
+```bash
+gpg --batch --passphrase "password" -d -o file.txt file.txt.gpg
 ```
