@@ -132,3 +132,17 @@ Decrypt file via password in cli
 ```bash
 gpg --batch --passphrase "password" -d -o file.txt file.txt.gpg
 ```
+---
+
+### Signature
+
+Signing a file
+```bash
+gpg --armor --detach-sign file.txt
+```
+
+verify signature
+```bash
+gpg --verify file.txt.asc file.txt
+```
+
