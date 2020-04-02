@@ -38,6 +38,17 @@ gpg --delete-key 8C64425F9A188D919F4A37E39216C63F5680B5A8
 ```
 ---
 
+### Export and import private key
+
+```bash
+gpg --export-secret-keys 8C64425F9A188D919F4A37E39216C63F5680B5A8 > private.key
+```
+
+```bash
+gpg --import private.key
+```
+---
+
 ### Encrypt and Decrypt file using gpg keys
 
 Create a secret file
