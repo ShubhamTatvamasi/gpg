@@ -34,4 +34,4 @@ sha256sum secrets.txt.enc
 ```
 > 2f02a6fb60ed6265a8f841d27779b8deb65e4b38995133d3a73782dfaedf280e  secrets.txt.enc
 
-Because we are using salt that's why output is different each time.
+### Because we are using `-salt` that's why output is different each time.
