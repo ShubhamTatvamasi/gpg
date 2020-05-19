@@ -41,3 +41,8 @@ decrypt the file
 openssl aes-256-cbc -d -a -in secrets.txt.enc -out secrets.txt.new
 ```
 
+check file content
+```bash
+cat secrets.txt.new
+```
+
