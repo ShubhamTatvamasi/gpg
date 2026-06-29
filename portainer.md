@@ -43,7 +43,7 @@ O
 
 Generate strong password:
 ```bash
-pwgen -sBy 32 1
+pwgen 32 1
 ```
 
 
