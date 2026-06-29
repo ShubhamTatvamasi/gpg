@@ -45,6 +45,11 @@ Export Private Key:
 gpg --armor --export-secret-keys 8C64425F9A188D919F4A37E39216C63F5680B5A8 > private.key
 ```
 
+Convert to base64: 
+```bash
+cat private.key | base64 -w 0 ; echo
+```
+
 Import Private Key:
 ```bash
 gpg --import private.key
