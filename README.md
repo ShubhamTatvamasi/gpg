@@ -42,7 +42,7 @@ gpg --delete-key 8C64425F9A188D919F4A37E39216C63F5680B5A8
 
 Export Private Key:
 ```bash
-gpg --export-secret-keys 8C64425F9A188D919F4A37E39216C63F5680B5A8 > private.key
+gpg --armor --export-secret-keys 8C64425F9A188D919F4A37E39216C63F5680B5A8 > private.key
 ```
 
 Import Private Key:
