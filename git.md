@@ -17,4 +17,7 @@ Sign all tags too:
 git config --global tag.gpgSign true
 ```
 
-
+Check git log with signatures:
+```bash
+git log --show-signature
+```
