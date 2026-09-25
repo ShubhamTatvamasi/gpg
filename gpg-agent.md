@@ -11,18 +11,18 @@ default-cache-ttl 315360000
 max-cache-ttl 315360000
 ```
 
-Unlock key once:
-```bash
-echo "test" | gpg --clearsign > /dev/null
-```
-
 Restart Agent:
 ```bash
 gpgconf --kill gpg-agent
 gpgconf --launch gpg-agent
 ```
 
-Test it:
+Unlock key once:
 ```bash
-gpg-connect-agent 'GETINFO s2k_count' /bye
+echo "test" | gpg --clearsign > /dev/null
+```
+
+Verify:
+```bash
+gpgconf --list-options gpg-agent | grep -E 'default-cache-ttl|max-cache-ttl'
 ```
