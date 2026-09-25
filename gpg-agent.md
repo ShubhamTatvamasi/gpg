@@ -22,3 +22,7 @@ gpgconf --kill gpg-agent
 gpgconf --launch gpg-agent
 ```
 
+Test it:
+```bash
+gpg-connect-agent 'GETINFO s2k_count' /bye
+```
