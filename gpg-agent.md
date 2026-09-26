@@ -17,6 +17,12 @@ gpgconf --kill gpg-agent
 gpgconf --launch gpg-agent
 ```
 
+Configure the TTY:
+```bash
+echo 'export GPG_TTY=$(tty)' >> ~/.bashrc
+source ~/.bashrc
+```
+
 Unlock key once:
 ```bash
 echo "test" | gpg --clearsign > /dev/null
