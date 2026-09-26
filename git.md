@@ -19,11 +19,6 @@ git config --global tag.gpgSign true
 
 ---
 
-Configure the TTY:
-```bash
-echo 'export GPG_TTY=$(tty)' >> ~/.bashrc
-```
-
 Create a new commit:
 ```bash
 git commit --no-verify
