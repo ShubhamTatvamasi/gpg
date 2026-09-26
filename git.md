@@ -19,7 +19,7 @@ git config --global tag.gpgSign true
 
 ---
 
-Create a new commit:
+Create a new commit without checks:
 ```bash
 git commit --no-verify
 ```
