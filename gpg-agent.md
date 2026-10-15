@@ -9,6 +9,8 @@ Store cache for 10 years:
 ```bash
 default-cache-ttl 315360000
 max-cache-ttl 315360000
+default-cache-ttl-ssh 315360000
+max-cache-ttl-ssh 315360000
 ```
 
 Restart Agent:
