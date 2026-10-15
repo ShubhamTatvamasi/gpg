@@ -2,5 +2,7 @@
 
 Install GNU GPG:
 ```bash
-brew install gnupg
+brew install \
+  gnupg \
+  pinentry-mac
 ```
