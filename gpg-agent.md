@@ -17,6 +17,9 @@ Restart Agent:
 ```bash
 gpgconf --kill gpg-agent
 gpgconf --launch gpg-agent
+
+# OR
+gpgconf --reload gpg-agent
 ```
 
 Configure the TTY:
