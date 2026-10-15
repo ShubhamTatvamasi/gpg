@@ -28,3 +28,7 @@ EOF
 ```
 chmod 600 ~/.gnupg/gpg-agent.conf
 ```
+
+```
+gpgconf --reload gpg-agent
+```
